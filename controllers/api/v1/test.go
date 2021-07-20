@@ -17,15 +17,16 @@ func (c *Test) Post() {
 
 		form := forms.TestPostForm{}
 
-		if rawData ,err := c.ParsePostForm(form); err == nil {
+		if rawData, err := c.ParsePostForm(form); err == nil {
 			logs.Info(rawData)
 			// do something ...
 		} else {
 			logs.Error(err)
 			c.Data["json"] = response.BadRequest
 		}
+	} else {
+		c.Data["json"] = response.BadMethod
 	}
-	c.Data["json"] = response.BadMethod
 }
 
 func (c *Test) Get() {
@@ -35,6 +36,7 @@ func (c *Test) Get() {
 		//uuid := c.GetString("uuid")
 		//logs.Info(uuid)
 
+	} else {
+		c.Data["json"] = response.BadMethod
 	}
-	c.Data["json"] = response.BadMethod
 }
