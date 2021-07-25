@@ -1,10 +1,10 @@
 package auth
 
 import (
-	"auto_tuomin_agent/base"
-	"auto_tuomin_agent/base/response"
 	"fmt"
 	"github.com/astaxie/beego"
+	"go_api_demo/base"
+	"go_api_demo/base/response"
 )
 
 type APIController struct {

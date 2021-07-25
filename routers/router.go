@@ -1,8 +1,8 @@
 package routers
 
 import (
-	v1 "auto_tuomin_agent/controllers/api/v1"
 	"github.com/astaxie/beego"
+	v1 "go_api_demo/controllers/api/v1"
 )
 
 func init() {

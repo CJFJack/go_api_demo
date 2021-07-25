@@ -1,10 +1,10 @@
 package v1
 
 import (
-	"auto_tuomin_agent/base/auth"
-	"auto_tuomin_agent/base/response"
-	"auto_tuomin_agent/forms"
 	"github.com/astaxie/beego/logs"
+	"go_api_demo/base/auth"
+	"go_api_demo/base/response"
+	"go_api_demo/forms"
 )
 
 type Test struct {

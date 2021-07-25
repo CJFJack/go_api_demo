@@ -1,4 +1,4 @@
-module auto_tuomin_agent
+module go_api_demo
 
 go 1.14
 

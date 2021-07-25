@@ -1,9 +1,9 @@
 package main
 
 import (
-	_ "auto_tuomin_agent/routers"
 	"fmt"
 	"github.com/astaxie/beego"
+	_ "go_api_demo/routers"
 )
 
 func main() {
