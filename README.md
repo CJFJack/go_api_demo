@@ -2,7 +2,7 @@ GO-Api-Demo
 ==============================================
 
 [![Build Status](https://img.shields.io/travis/rust-lang/rust.svg)](https://img.shields.io/travis/rust-lang/rust.svg)
-[![Python Version](https://img.shields.io/badge/Python--3.7-paasing-green.svg)](https://img.shields.io/badge/Python--3.7-paasing-green.svg)
+[![Python Version](https://img.shields.io/badge/Golang--1.15.11-paasing-green.svg)](https://img.shields.io/badge/Golang--1.15.11-paasing-green.svg)
 [![Django Version](https://img.shields.io/badge/Beego--1.12.1-paasing-green.svg)](https://img.shields.io/badge/Beego--1.12.1-paasing-green.svg)
 
 > API接口demo:
