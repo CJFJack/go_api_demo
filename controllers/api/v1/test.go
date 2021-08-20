@@ -1,7 +1,7 @@
 package v1
 
 import (
-	"github.com/astaxie/beego/logs"
+	"github.com/beego/beego/v2/core/logs"
 	"go_api_demo/base/auth"
 	"go_api_demo/base/response"
 	"go_api_demo/forms"

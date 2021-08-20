@@ -2,7 +2,7 @@ package services
 
 import (
 	"fmt"
-	"github.com/astaxie/beego/logs"
+	"github.com/beego/beego/v2/core/logs"
 	"io"
 	"os/exec"
 	"strings"
